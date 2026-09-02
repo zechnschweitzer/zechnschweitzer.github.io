@@ -5,3 +5,6 @@ title: "Zech N Schweitzer"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+![](./images/4DE363B6-4381-4B3D-9480-E91614187C2A.jpg){fig-align="center"}
