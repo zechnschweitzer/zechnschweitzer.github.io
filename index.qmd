@@ -4,7 +4,7 @@ author: "Zech Schweitzer"
 date: "2026-09-03"
 format:
   html:
-    theme: journal
+    theme: yeti
     toc: true
 ---
 # Hello, World!  
