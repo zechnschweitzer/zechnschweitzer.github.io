@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to My Website",
     "section": "",
     "text": "Hello, World!\nWelcome to my Quarto website. Check out some of my profiles below:\n\nIf you would like to visit my GitHub, please click here!\nIf you would like to visit my LinkedIn, please click here!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
