@@ -1,10 +1,17 @@
 ---
-title: "Zech N Schweitzer"
+title: "Welcome to My Website"
+author: "Zech Schweitzer"
+date: "2026-09-03"
+format:
+  html:
+    theme: journal
+    toc: true
 ---
+# Hello, World!  
+Welcome to my Quarto website. Check out some of my profiles below:
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+- If you would like to visit my GitHub, please click [here](https://github.com/zechnschweitzer)!
+- If you would like to visit my LinkedIn, please click [here](https://www.linkedin.com/in/zechariahschweitzer/)!
 
 
 ![](./images/4DE363B6-4381-4B3D-9480-E91614187C2A.jpg){fig-align="center"}
