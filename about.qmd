@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-Hello! This website is my public portfolio, using Quarto. This website also contains Python script, used to run embedded code. The table below shows the types of species and number of species found in Acadia National Park, Maine USA. The data was downloaded from the NPS Mammals, which was manipulated using PySpark's querying capabilities. 
+Hello! This website is my public portfolio, using Quarto. This website also contains Python script, used to run embedded code. The table below shows the types of species and number of species found in Acadia National Park, Maine USA. The data was downloaded from the NPS Mammals website, which was further processed using PySpark's querying capabilities. 
 
 ```{python}
 from pyspark.sql import SparkSession
@@ -33,4 +33,5 @@ species = spark.sql(sql_query)
 species.show()
 ```
 
-
+Reference: 
+U.S. Department of the Interior. (n.d.). Mammals. National Parks Service. https://www.nps.gov/acad/learn/nature/mammals.htm 
