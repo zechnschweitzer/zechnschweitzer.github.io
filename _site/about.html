@@ -149,8 +149,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#reference" id="toc-reference" class="nav-link active" data-scroll-target="#reference">Reference:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -174,8 +180,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Hello! This website is my public portfolio, using Quarto. This website also contains Python script, used to run embedded code. The table below shows the types of species and number of species found in Acadia National Park, Maine USA. The data was downloaded from the NPS Mammals website, which was further processed using PySpark’s querying capabilities.</p>
-<div id="317674e9" class="cell" data-execution_count="1">
+<p>Hello! This website is my public portfolio, using Quarto. This website also contains Python script, used to run embedded code. The table below shows the types and number of species found in Acadia National Park, Maine USA. The data was generated and downloaded from the NPS Mammal’s website, which was further processed using PySpark’s querying capabilities:</p>
+<div id="396e81ad" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark.sql <span class="im">import</span> SparkSession</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pyspark <span class="im">import</span> sql</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -210,14 +216,8 @@ Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
 /home/ubuntu/zechnschweitzer.github.io/.venv-1/lib/python3.12/site-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas &gt;= 3.0.0. Some features may not work correctly. It is recommended to use pandas &lt; 3.0.0 for now.
   require_minimum_pandas_version()
-26/09/13 20:48:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-26/09/13 20:48:06 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
-
-[Stage 0:&gt;                                                          (0 + 1) / 1]
-
-                                                                                
-
-[Stage 2:&gt;                                                          (0 + 1) / 1]</code></pre>
+26/09/13 21:01:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/09/13 21:01:10 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>+--------------+-----------------+
@@ -232,14 +232,13 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 +--------------+-----------------+
 </code></pre>
 </div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-                                                                                </code></pre>
 </div>
-</div>
-<p>Reference: U.S. Department of the Interior. (n.d.). Mammals. National Parks Service. https://www.nps.gov/acad/learn/nature/mammals.htm</p>
+<section id="reference" class="level1">
+<h1>Reference:</h1>
+<p>U.S. Department of the Interior. (n.d.). Mammals. National Parks Service. https://www.nps.gov/acad/learn/nature/mammals.htm</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
