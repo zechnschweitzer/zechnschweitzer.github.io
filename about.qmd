@@ -2,4 +2,35 @@
 title: "About"
 ---
 
-This website is my public portfolio, using Quarto. 
+Hello! This website is my public portfolio, using Quarto. This website also contains Python script, used to run embedded code. The table below shows the types of species and number of species found in Acadia National Park, Maine USA. The data was downloaded from the NPS Mammals, which was manipulated using PySpark's querying capabilities. 
+
+```{python}
+from pyspark.sql import SparkSession
+from pyspark import sql
+
+spark = SparkSession \
+    .builder \
+    .appName("Acadia Nation Park Species Table") \
+    .config("spark.some.config.option", "some-value") \
+    .getOrCreate()
+
+
+species_df = spark.read.csv(
+"./data/NPSpecies_FullList_ACAD_20260913_153745.csv",
+    header=True,
+    inferSchema=True
+)
+
+species_df.createOrReplaceTempView("Acadia_Species")
+
+sql_query = """
+SELECT CATEGORY as Species_Types , COUNT(CATEGORY) Number_Of_Species
+FROM Acadia_Species
+GROUP BY CATEGORY
+"""
+species = spark.sql(sql_query)
+
+species.show()
+```
+
+
