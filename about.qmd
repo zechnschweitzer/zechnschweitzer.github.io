@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+This website is my public portfolio, using Quarto. 
