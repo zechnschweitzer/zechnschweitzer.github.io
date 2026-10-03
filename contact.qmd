@@ -2,7 +2,7 @@
 title: "Contact"
 format:
   html:
-    toc: true
+    toc: false
 ---
 
 <div class="contact-container">

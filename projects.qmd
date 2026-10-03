@@ -2,7 +2,7 @@
 title: "Projects"
 format:
   html:
-    toc: false
+    toc: true
 ---
 
 <style>
