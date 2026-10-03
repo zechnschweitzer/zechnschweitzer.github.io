@@ -11,6 +11,17 @@ format:
   border-left: 1px solid #dee2e6;
   padding-left: 35px;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-links img {
+  width: 40px;
+}
 </style>
 
 ::: {.columns}
@@ -19,27 +30,27 @@ format:
 
 ![](./images/profile.jpeg){fig-align="center" width="85%"}
 
+<div class="social-links">
+
+<a href="https://www.linkedin.com/in/zechariahschweitzer/" target="_blank">
+<img src="./images/linkedin.png" alt="LinkedIn">
+</a>
+
+<a href="https://github.com/zechnschweitzer" target="_blank">
+<img src="./images/github.png" alt="GitHub">
+</a>
+
+</div>
+
 :::
 
-::: {.column width="70%" .about-divider}
+::: {.column width="70%"} {.about-divider}
 
 Hello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.
 
 I’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.
 
 I’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work.
-
-<div style="display: flex; gap: 15px; align-items: center; margin-top: 25px;">
-
-<a href="https://www.linkedin.com/in/zechariahschweitzer/" target="_blank">
-<img src="./images/linkedin.png" width="40" alt="LinkedIn">
-</a>
-
-<a href="https://github.com/zechnschweitzer" target="_blank">
-<img src="./images/github.png" width="40" alt="GitHub">
-</a>
-
-</div>
 
 :::
 
