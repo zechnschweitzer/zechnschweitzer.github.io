@@ -216,67 +216,70 @@ object-fit: contain;
 }
 
 /* =========================================================
-Contact Form
-========================================================= */
+   Contact Form
+   ========================================================= */
 
 .contact-form {
-max-width: 600px;
-margin: 40px auto 0;
-text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto 0;
+  text-align: left;
 }
 
 .form-group {
-margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .form-group label {
-display: block;
-margin-bottom: 7px;
-font-weight: 600;
-color: var(--text);
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: var(--text);
 }
 
 .form-group input,
 .form-group textarea {
-width: 100%;
-padding: 11px 13px;
-border: 1px solid var(--border);
-border-radius: 5px;
-background-color: var(--background);
-color: var(--text);
-font-family: inherit;
-font-size: 1rem;
-box-sizing: border-box;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 13px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1rem;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-outline: none;
-border-color: var(--navy);
+  outline: none;
+  border-color: var(--navy);
 }
 
 .form-group textarea {
-min-height: 160px;
-resize: vertical;
+  min-height: 440px;
+  resize: vertical;
 }
 
 .submit-button {
-display: block;
-margin: 10px auto 0;
-padding: 11px 20px;
-border: none;
-border-radius: 5px;
-background-color: var(--navy);
-color: white;
-font-family: inherit;
-font-size: 1rem;
-font-weight: 600;
-cursor: pointer;
-transition: 0.2s ease;
+  display: block;
+  margin: 10px auto 0;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--navy);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
 .submit-button:hover {
-background-color: var(--navy-light);
+  background-color: var(--navy-light);
 }
 
 /* =========================================================
