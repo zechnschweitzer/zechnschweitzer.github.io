@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Me – Zech Schweitzer</title>
+<title>Projects – Zech Schweitzer</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -96,11 +96,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -148,51 +148,91 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.about-divider {
-  border-left: 1px solid #dee2e6;
-  padding-left: 35px;
-  min-height: 100%;
-}
-
-.social-title {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-weight: 600;
-}
-
-.social-links {
+.project {
   display: flex;
-  justify-content: center;
-  gap: 12px;
+  align-items: center;
+  gap: 35px;
+  padding: 30px 0;
+  border-bottom: 1px solid #dee2e6;
 }
 
-.social-links img {
-  width: 24px;
+.project-image {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 300px;
   height: auto;
 }
+
+.project-details {
+  flex: 1;
+}
+
+.project-details h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-image img {
+    max-width: 300px;
+  }
+}
 </style>
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/profile.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
-</figure>
+<div class="project">
+<div class="project-image">
+<p><a href="./images/project1_688.jpg" target="_blank"> <img src="./images/project1_688.jpg" alt="Big Data Job Market - Salary Analysis"> </a></p>
 </div>
-<div class="social-title">
-<p>Connect with me</p>
+<section id="big-data-job-market---salary-analysis" class="level2 project-details">
+<h2 class="anchored" data-anchor-id="big-data-job-market---salary-analysis">Big Data Job Market - Salary Analysis</h2>
+<p>Processed and analyzed 500,000+ job postings to examine salary patterns across industries, occupations, education levels, experience, and employment types.</p>
+<p><strong>Tools &amp; Technologies:</strong> Python, PySpark, SQL, Plotly</p>
+<p><strong>Course:</strong> MED AD 688</p>
+</section>
 </div>
-<div class="social-links">
-<p><a href="https://www.linkedin.com/in/zechariahschweitzer/" target="_blank"> <img src="./images/linkedin.png" alt="LinkedIn"> </a></p>
-<p><a href="https://github.com/zechnschweitzer" target="_blank"> <img src="./images/github.png" alt="GitHub"> </a></p>
+<div class="project">
+<div class="project-image">
+<p><a href="./images/project2_654.png" target="_blank"> <img src="./images/project2_654.png" alt="Disney Parks - Customer Segmentation"> </a></p>
 </div>
-</div><div class="column" style="width:70%;">
-<div class="about-divider">
-<p>Hello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.</p>
-<p>I’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.</p>
-<p>I’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work.</p>
+<section id="disney-parks---customer-segmentation" class="level2 project-details">
+<h2 class="anchored" data-anchor-id="disney-parks---customer-segmentation">Disney Parks - Customer Segmentation</h2>
+<p>Applied K-means clustering to 9,000+ households to identify customer segments based on spending, visitation, demographics, and Disney+ behavior.</p>
+<p><strong>Tools &amp; Technologies:</strong> Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, K-means Clustering</p>
+<p><strong>Course:</strong> MET AD 654</p>
+</section>
 </div>
+<div class="project">
+<div class="project-image">
+<p><a href="./images/project3_654.jpg" target="_blank"> <img src="./images/project3_654.jpg" alt="Lobster Land - Operational &amp; Revenue Analysis"> </a></p>
 </div>
+<section id="lobster-land---operational-revenue-analysis" class="level2 project-details">
+<h2 class="anchored" data-anchor-id="lobster-land---operational-revenue-analysis">Lobster Land - Operational &amp; Revenue Analysis</h2>
+<p>Analyzed fictional amusement park operational data to identify revenue trends, labor efficiency, visitor behavior, weather patterns, and seasonal performance.</p>
+<p><strong>Tools &amp; Technologies:</strong> Python, Pandas, Matplotlib, Seaborn, Tableau</p>
+<p><strong>Course:</strong> MET AD 654</p>
+</section>
+</div>
+<div class="project">
+<div class="project-image">
+<p><a href="./images/project4_571.PNG" target="_blank"> <img src="./images/project4_571.PNG" alt="NYC Real Estate - Neighborhood Analysis"> </a></p>
+</div>
+<section id="nyc-real-estate---neighborhood-analysis" class="level2 project-details">
+<h2 class="anchored" data-anchor-id="nyc-real-estate---neighborhood-analysis">NYC Real Estate - Neighborhood Analysis</h2>
+<p>Analyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.</p>
+<p><strong>Tools &amp; Technologies:</strong> R, SQL, dplyr, ggplot2, K-means Clustering, Statistical Analysis</p>
+<p><strong>Course:</strong> MET AD 571</p>
+</section>
 </div>
 
 

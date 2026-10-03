@@ -2,15 +2,71 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Website",
+    "title": "About Me",
     "section": "",
-    "text": "Hello, World!\nWelcome to my Quarto website. Check out some of my profiles below:\n\nIf you would like to visit my GitHub, please click here!\nIf you would like to visit my LinkedIn, please click here!"
+    "text": "Connect with me\n\n\n  \n  \n\n\n\nHello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.\nI’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.\nI’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Hello! This website is my public portfolio, using Quarto. This website also contains Python script, used to run embedded code. The table below shows the types and number of species found in Acadia National Park, Maine USA. The data was generated and downloaded from the NPS Mammal’s website, which was further processed using PySpark’s querying capabilities:\n\nfrom pyspark.sql import SparkSession\nfrom pyspark import sql\n\nspark = SparkSession \\\n    .builder \\\n    .appName(\"Acadia Nation Park Species Table\") \\\n    .config(\"spark.some.config.option\", \"some-value\") \\\n    .getOrCreate()\n\n\nspecies_df = spark.read.csv(\n\"./data/NPSpecies_FullList_ACAD_20260913_153745.csv\",\n    header=True,\n    inferSchema=True\n)\n\nspecies_df.createOrReplaceTempView(\"Acadia_Species\")\n\nsql_query = \"\"\"\nSELECT CATEGORY as Species_Types , COUNT(CATEGORY) Number_Of_Species\nFROM Acadia_Species\nGROUP BY CATEGORY\n\"\"\"\nspecies = spark.sql(sql_query)\n\nspecies.show()\n\nWARNING: Using incubator modules: jdk.incubator.vector\nWARNING: package sun.security.action not in java.base\nUsing Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties\nSetting default log level to \"WARN\".\nTo adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).\n/home/ubuntu/zechnschweitzer.github.io/.venv-1/lib/python3.12/site-packages/pyspark/testing/utils.py:127: FutureWarning: PySpark does not yet fully support pandas &gt;= 3.0.0. Some features may not work correctly. It is recommended to use pandas &lt; 3.0.0 for now.\n  require_minimum_pandas_version()\n26/09/13 21:01:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable\n26/09/13 21:01:10 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.\n\n\n+--------------+-----------------+\n| Species_Types|Number_Of_Species|\n+--------------+-----------------+\n|Vascular Plant|             1226|\n|          Bird|              364|\n|        Mammal|               55|\n|     Amphibian|               15|\n|          Fish|               38|\n|       Reptile|               11|\n+--------------+-----------------+\n\n\n\n\nReference:\nU.S. Department of the Interior. (n.d.). Mammals. National Parks Service. https://www.nps.gov/acad/learn/nature/mammals.htm"
+    "text": "Analytical marketing professional currently pursuing an MS in Applied Business Analytics, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.\n Click to Download CV"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Analytical marketing professional currently pursuing an MS in Applied Business Analytics, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.\n Click to Download CV"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
+    "section": "",
+    "text": "I’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n Email Me"
+  },
+  {
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Contact Me",
+    "section": "",
+    "text": "I’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n Email Me"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Processed and analyzed 500,000+ job postings to examine salary patterns across industries, occupations, education levels, experience, and employment types.\nTools & Technologies: Python, PySpark, SQL, Plotly\nCourse: MED AD 688"
+  },
+  {
+    "objectID": "projects.html#big-data-job-market---salary-analysis",
+    "href": "projects.html#big-data-job-market---salary-analysis",
+    "title": "Projects",
+    "section": "",
+    "text": "Processed and analyzed 500,000+ job postings to examine salary patterns across industries, occupations, education levels, experience, and employment types.\nTools & Technologies: Python, PySpark, SQL, Plotly\nCourse: MED AD 688"
+  },
+  {
+    "objectID": "projects.html#disney-parks---customer-segmentation",
+    "href": "projects.html#disney-parks---customer-segmentation",
+    "title": "Projects",
+    "section": "Disney Parks - Customer Segmentation",
+    "text": "Disney Parks - Customer Segmentation\nApplied K-means clustering to 9,000+ households to identify customer segments based on spending, visitation, demographics, and Disney+ behavior.\nTools & Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, K-means Clustering\nCourse: MET AD 654"
+  },
+  {
+    "objectID": "projects.html#lobster-land---operational-revenue-analysis",
+    "href": "projects.html#lobster-land---operational-revenue-analysis",
+    "title": "Projects",
+    "section": "Lobster Land - Operational & Revenue Analysis",
+    "text": "Lobster Land - Operational & Revenue Analysis\nAnalyzed fictional amusement park operational data to identify revenue trends, labor efficiency, visitor behavior, weather patterns, and seasonal performance.\nTools & Technologies: Python, Pandas, Matplotlib, Seaborn, Tableau\nCourse: MET AD 654"
+  },
+  {
+    "objectID": "projects.html#nyc-real-estate---neighborhood-analysis",
+    "href": "projects.html#nyc-real-estate---neighborhood-analysis",
+    "title": "Projects",
+    "section": "NYC Real Estate - Neighborhood Analysis",
+    "text": "NYC Real Estate - Neighborhood Analysis\nAnalyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.\nTools & Technologies: R, SQL, dplyr, ggplot2, K-means Clustering, Statistical Analysis\nCourse: MET AD 571"
   }
 ]
