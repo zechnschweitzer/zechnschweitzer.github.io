@@ -1,10 +1,3 @@
----
-title: "Contact Me"
-format:
-html:
-toc: false
-----------
-
 <div class="contact-container">
 
 ## Let's Connect
@@ -27,7 +20,7 @@ I'd be happy to connect and discuss opportunities, analytics, marketing, or pote
 
 <form
   class="contact-form"
-  action="https://formspree.io/f/YOUR_FORM_ID"
+  action="https://formspree.io/f/myezrazk"
   method="POST"
 >
 
