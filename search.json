@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About Me",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
     "section": "",
-    "text": "Connect with me\n\n\n  \n  \n\n\n\nHello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.\nI’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.\nI’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work."
+    "text": "I’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n Email Me"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Contact Me",
     "section": "",
-    "text": "Analytical marketing professional currently pursuing an MS in Applied Business Analytics from Boston University, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.\n Click to Download CV"
-  },
-  {
-    "objectID": "cv.html#professional-summary",
-    "href": "cv.html#professional-summary",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Analytical marketing professional currently pursuing an MS in Applied Business Analytics from Boston University, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.\n Click to Download CV"
+    "text": "I’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n Email Me"
   },
   {
     "objectID": "projects.html",
@@ -54,5 +47,26 @@
     "title": "Projects",
     "section": "NYC Real Estate - Neighborhood Analysis",
     "text": "NYC Real Estate - Neighborhood Analysis\nAnalyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.\nTools & Technologies: R, SQL, dplyr, ggplot2, K-means Clustering, Statistical Analysis\nCourse: MET AD 571"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Analytical marketing professional currently pursuing an MS in Applied Business Analytics, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.\n Click to Download CV \n\n\n\n\nYour browser does not support embedded PDF previews. Click here to view the CV."
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Analytical marketing professional currently pursuing an MS in Applied Business Analytics, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.\n Click to Download CV"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Connect with me\n\n\n  \n  \n\n\n\nHello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.\nI’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.\nI’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work."
   }
 ]
