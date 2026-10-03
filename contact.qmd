@@ -1,0 +1,82 @@
+---
+title: "Contact Me"
+format:
+  html:
+    theme: yeti
+    toc: false
+---
+
+<style>
+.contact-container {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.contact-container h2 {
+  margin-bottom: 15px;
+}
+
+.contact-container p {
+  margin-bottom: 30px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-links img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.email-button {
+  padding: 9px 18px;
+  border: 1px solid #2c3e50;
+  border-radius: 5px;
+  color: #2c3e50 !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.email-button:hover {
+  background-color: #2c3e50;
+  color: white !important;
+}
+</style>
+
+<div class="contact-container">
+
+## Let's Connect
+
+<p>
+I'd be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.
+</p>
+
+<div class="contact-links">
+
+<a href="https://www.linkedin.com/in/zechariahschweitzer/" target="_blank">
+<img src="./images/linkedin.png" alt="LinkedIn">
+</a>
+
+<a href="https://github.com/zechnschweitzer" target="_blank">
+<img src="./images/github.png" alt="GitHub">
+</a>
+
+<a href="mailto:znschweitzer@gmail.com" class="email-button">
+Email Me
+</a>
+
+</div>
+
+</div>

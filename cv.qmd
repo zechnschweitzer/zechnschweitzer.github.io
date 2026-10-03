@@ -11,11 +11,12 @@ format:
   display: flex;
   gap: 50px;
   align-items: flex-start;
+  margin-top: 30px;
 }
 
 .cv-summary {
   flex: 0 0 40%;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .cv-summary h2 {
@@ -26,10 +27,11 @@ format:
   flex: 1;
 }
 
-.cv-preview iframe {
+.cv-preview object {
   width: 100%;
-  height: 800px;
+  height: 750px;
   border: 1px solid #dee2e6;
+  border-radius: 4px;
 }
 
 .download-button {
@@ -60,7 +62,7 @@ format:
     width: 100%;
   }
 
-  .cv-preview iframe {
+  .cv-preview object {
     height: 600px;
   }
 }
@@ -72,9 +74,9 @@ format:
 
 ## Professional Summary
 
-Analytical marketing professional currently pursuing an MS in Applied Business Analytics from Boston University, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.
+Analytical marketing professional currently pursuing an MS in Applied Business Analytics, with experience managing multi-million-dollar budgets and using data to drive business decisions. Skilled in financial forecasting, performance analysis, data visualization, and analytical modeling using Tableau, SQL, Python, and R. Experienced in translating complex business data into actionable insights, optimizing operational workflows, and supporting strategic initiatives across marketing and financial operations.
 
-<a href="./cv/CV_Schweitzer.pdf" download class="download-button">
+<a href="./files/CV_Schweitzer.pdf" download class="download-button">
 Click to Download CV
 </a>
 
@@ -82,7 +84,12 @@ Click to Download CV
 
 <div class="cv-preview">
 
-<iframe src="./cv/CV_Schweitzer.pdf"></iframe>
+<object data="./files/CV_Schweitzer.pdf" type="application/pdf">
+  <p>
+    Your browser does not support embedded PDF previews.
+    <a href="./files/CV_Schweitzer.pdf">Click here to view the CV.</a>
+  </p>
+</object>
 
 </div>
 
