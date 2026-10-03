@@ -13,11 +13,17 @@ format:
   min-height: 100%;
 }
 
+.social-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 15px;
 }
 
 .social-links img {
@@ -31,6 +37,10 @@ format:
 ::: {.column width="30%"}
 
 ![](./images/profile.jpeg){fig-align="center" width="85%"}
+
+<div class="social-title">
+Connect with me
+</div>
 
 <div class="social-links">
 
