@@ -3,9 +3,10 @@ title: "Projects"
 format:
   html:
     toc: true
+    toc-depth: 2
 ---
 
-## Big Data Job Market - Salary Analysis
+## Big Data Job Market - Salary Analysis {#big-data-job-market}
 
 <div class="project">
 
@@ -30,7 +31,7 @@ Processed and analyzed 500,000+ job postings to examine salary patterns across i
 </div>
 
 
-## Disney Parks - Customer Segmentation
+## Disney Parks - Customer Segmentation {#disney-parks-customer-segmentation}
 
 <div class="project">
 
@@ -55,7 +56,7 @@ Applied K-means clustering to 9,000+ households to identify customer segments ba
 </div>
 
 
-## Lobster Land - Operational & Revenue Analysis
+## Lobster Land - Operational & Revenue Analysis {#lobster-land-operational-revenue-analysis}
 
 <div class="project">
 
@@ -80,7 +81,7 @@ Analyzed fictional amusement park operational data to identify revenue trends, l
 </div>
 
 
-## NYC Real Estate - Neighborhood Analysis
+## NYC Real Estate - Neighborhood Analysis {#nyc-real-estate-neighborhood-analysis}
 
 <div class="project">
 
