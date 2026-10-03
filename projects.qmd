@@ -79,8 +79,8 @@ Processed and analyzed 500,000+ job postings to examine salary patterns across i
 
 <div class="project-image">
 
-<a href="./images/project2_654.jpg" target="_blank">
-<img src="./images/project2_654.jpg" alt="Disney Parks - Customer Segmentation">
+<a href="./images/project2_654.png" target="_blank">
+<img src="./images/project2_654.png" alt="Disney Parks - Customer Segmentation">
 </a>
 
 </div>
@@ -129,8 +129,8 @@ Analyzed fictional amusement park operational data to identify revenue trends, l
 
 <div class="project-image">
 
-<a href="./images/project4_571.png" target="_blank">
-<img src="./images/project4_571.png" alt="NYC Real Estate - Neighborhood Analysis">
+<a href="./images/project4_571.PNG" target="_blank">
+<img src="./images/project4_571.PNG" alt="NYC Real Estate - Neighborhood Analysis">
 </a>
 
 </div>
