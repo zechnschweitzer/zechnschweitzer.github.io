@@ -10,6 +10,7 @@ format:
 .about-divider {
   border-left: 1px solid #dee2e6;
   padding-left: 35px;
+  min-height: 100%;
 }
 
 .social-links {
@@ -21,6 +22,7 @@ format:
 
 .social-links img {
   width: 40px;
+  height: auto;
 }
 </style>
 
@@ -44,13 +46,17 @@ format:
 
 :::
 
-::: {.column width="70%"} {.about-divider}
+::: {.column width="70%"}
+
+<div class="about-divider">
 
 Hello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.
 
 I’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.
 
 I’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work.
+
+</div>
 
 :::
 
