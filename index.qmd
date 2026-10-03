@@ -37,9 +37,6 @@ format:
 
 ![](./images/profile.jpeg){fig-align="center" width="85%"}
 
-<div class="social-title">
-Connect with me
-</div>
 
 <div class="social-links">
 
