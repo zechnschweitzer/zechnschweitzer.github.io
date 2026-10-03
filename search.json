@@ -4,14 +4,14 @@
     "href": "contact.html",
     "title": "Contact Me",
     "section": "",
-    "text": "I’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n Email Me"
+    "text": "title: “Contact Me” format: html: toc: false ———-"
   },
   {
     "objectID": "contact.html#lets-connect",
     "href": "contact.html#lets-connect",
     "title": "Contact Me",
-    "section": "",
-    "text": "I’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n Email Me"
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\n\nI’d be happy to connect and discuss opportunities, analytics, marketing, or potential collaborations.\n\n\n  \n  \n\n\n\nName \n\n\nEmail \n\n\nMessage\n\n\n\nSend Message"
   },
   {
     "objectID": "projects.html",

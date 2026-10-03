@@ -1,261 +1,320 @@
 /* =========================================================
-   Global Website Theme
-   ========================================================= */
+Global Website Theme
+========================================================= */
 
 :root {
-  --navy: #233653;
-  --navy-light: #344866;
-  --text: #222222;
-  --muted: #666666;
-  --border: #d9dee5;
-  --background: #ffffff;
+--navy: #233653;
+--navy-light: #344866;
+--text: #222222;
+--muted: #666666;
+--border: #d9dee5;
+--background: #ffffff;
 }
 
-
 /* =========================================================
-   General
-   ========================================================= */
+General
+========================================================= */
 
 body {
-  color: var(--text);
-  background: var(--background);
-  font-family: "Avenir Next", Avenir, "Montserrat", Arial, sans-serif;
+color: var(--text);
+background: var(--background);
+font-family: "Avenir Next", Avenir, "Montserrat", Arial, sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: var(--text);
-  font-weight: 700;
+color: var(--text);
+font-weight: 700;
 }
 
 h1 {
-  margin-bottom: 35px;
+margin-bottom: 35px;
 }
 
 h2 {
-  margin-top: 30px;
+margin-top: 30px;
 }
 
-
 /* =========================================================
-   Navigation
-   ========================================================= */
+Navigation
+========================================================= */
 
 .navbar {
-  background-color: var(--navy) !important;
+background-color: var(--navy) !important;
 }
 
 .navbar-brand,
 .navbar-nav .nav-link {
-  color: white !important;
+color: white !important;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #dce5f2 !important;
+color: #dce5f2 !important;
 }
 
 .navbar-brand {
-  font-weight: 700;
+font-weight: 700;
 }
 
-
 /* =========================================================
-   Links
-   ========================================================= */
+Links
+========================================================= */
 
 a {
-  color: var(--navy);
+color: var(--navy);
 }
 
 a:hover {
-  color: var(--navy-light);
+color: var(--navy-light);
 }
 
-
 /* =========================================================
-   Buttons
-   ========================================================= */
+Buttons
+========================================================= */
 
 .download-button,
 .email-button {
-  display: inline-block;
-  padding: 11px 20px;
-  background-color: var(--navy);
-  color: white !important;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: 0.2s ease;
+display: inline-block;
+padding: 11px 20px;
+background-color: var(--navy);
+color: white !important;
+text-decoration: none;
+border-radius: 5px;
+font-weight: 600;
+transition: 0.2s ease;
 }
 
 .download-button:hover,
 .email-button:hover {
-  background-color: var(--navy-light);
-  color: white !important;
+background-color: var(--navy-light);
+color: white !important;
 }
 
-
 /* =========================================================
-   About Me
-   ========================================================= */
+About Me
+========================================================= */
 
 .about-divider {
-  border-left: 1px solid var(--border);
-  padding-left: 35px;
-  min-height: 100%;
+border-left: 1px solid var(--border);
+padding-left: 35px;
+min-height: 100%;
 }
 
 .social-title {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-weight: 600;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+font-weight: 600;
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
+display: flex;
+justify-content: center;
+gap: 12px;
 }
 
 .social-links img {
-  width: 24px;
-  height: auto;
+width: 24px;
+height: auto;
 }
 
-
 /* =========================================================
-   Projects
-   ========================================================= */
+Projects
+========================================================= */
 
 .project {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  padding: 35px 0;
-  border-bottom: 1px solid var(--border);
+display: flex;
+align-items: center;
+gap: 40px;
+padding: 35px 0;
+border-bottom: 1px solid var(--border);
 }
 
 .project-image {
-  flex: 0 0 30%;
-  text-align: center;
+flex: 0 0 30%;
+text-align: center;
 }
 
 .project-image img {
-  width: 100%;
-  max-width: 280px;
-  height: auto;
-  border-radius: 4px;
+width: 100%;
+max-width: 280px;
+height: auto;
+border-radius: 4px;
 }
 
 .project-details {
-  flex: 1;
+flex: 1;
 }
 
 .project-details h2 {
-  margin-top: 0;
+margin-top: 0;
 }
 
 .project-details strong {
-  color: var(--navy);
+color: var(--navy);
 }
 
-
 /* =========================================================
-   CV
-   ========================================================= */
+CV
+========================================================= */
 
 .cv-container {
-  display: flex;
-  gap: 50px;
-  align-items: flex-start;
-  margin-top: 20px;
+display: flex;
+gap: 50px;
+align-items: flex-start;
+margin-top: 20px;
 }
 
 .cv-summary {
-  flex: 0 0 40%;
+flex: 0 0 40%;
 }
 
 .cv-preview {
-  flex: 1;
+flex: 1;
 }
 
 .cv-preview object {
-  width: 100%;
-  height: 750px;
-  border: 1px solid var(--border);
+width: 100%;
+height: 750px;
+border: 1px solid var(--border);
 }
 
-
 /* =========================================================
-   Contact
-   ========================================================= */
+Contact
+========================================================= */
 
 .contact-container {
-  max-width: 700px;
-  margin: 50px auto;
-  text-align: center;
+max-width: 700px;
+margin: 50px auto;
+text-align: center;
 }
 
 .contact-container p {
-  color: var(--muted);
-  margin-bottom: 30px;
+color: var(--muted);
+margin-bottom: 30px;
 }
 
 .contact-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 25px;
+}
+
+.contact-links a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
 }
 
 .contact-links img {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
+width: 32px;
+height: 32px;
+object-fit: contain;
 }
 
+/* =========================================================
+Contact Form
+========================================================= */
+
+.contact-form {
+max-width: 600px;
+margin: 40px auto 0;
+text-align: left;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 7px;
+font-weight: 600;
+color: var(--text);
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 11px 13px;
+border: 1px solid var(--border);
+border-radius: 5px;
+background-color: var(--background);
+color: var(--text);
+font-family: inherit;
+font-size: 1rem;
+box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+outline: none;
+border-color: var(--navy);
+}
+
+.form-group textarea {
+min-height: 160px;
+resize: vertical;
+}
+
+.submit-button {
+display: block;
+margin: 10px auto 0;
+padding: 11px 20px;
+border: none;
+border-radius: 5px;
+background-color: var(--navy);
+color: white;
+font-family: inherit;
+font-size: 1rem;
+font-weight: 600;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.submit-button:hover {
+background-color: var(--navy-light);
+}
 
 /* =========================================================
-   Mobile
-   ========================================================= */
+Mobile
+========================================================= */
 
 @media (max-width: 768px) {
+.cv-container {
+flex-direction: column;
+}
 
-  .cv-container {
-    flex-direction: column;
-  }
+.cv-summary,
+.cv-preview {
+width: 100%;
+}
 
-  .cv-summary,
-  .cv-preview {
-    width: 100%;
-  }
+.cv-preview object {
+height: 600px;
+}
 
-  .cv-preview object {
-    height: 600px;
-  }
+.project {
+flex-direction: column;
+align-items: flex-start;
+}
 
-  .project {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.project-image {
+width: 100%;
+}
 
-  .project-image {
-    width: 100%;
-  }
+.project-image img {
+max-width: 300px;
+}
 
-  .project-image img {
-    max-width: 300px;
-  }
-
-  .about-divider {
-    border-left: none;
-    border-top: 1px solid var(--border);
-    padding-left: 0;
-    padding-top: 30px;
-    margin-top: 30px;
-  }
-
+.about-divider {
+border-left: none;
+border-top: 1px solid var(--border);
+padding-left: 0;
+padding-top: 30px;
+margin-top: 30px;
+}
 }
