@@ -32,21 +32,21 @@
     "href": "projects.html#disney-parks---customer-segmentation",
     "title": "Projects",
     "section": "Disney Parks - Customer Segmentation",
-    "text": "Disney Parks - Customer Segmentation\nApplied K-means clustering to 9,000+ households to identify customer segments based on spending, visitation, demographics, and Disney+ behavior.\nTools & Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, K-means Clustering\nCourse: MET AD 654"
+    "text": "Disney Parks - Customer Segmentation\n\n\n  \n\n\nApplied K-means clustering to 9,000+ households to identify customer segments based on spending, visitation, demographics, and Disney+ behavior.\nTools & Technologies: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, K-means Clustering\nCourse: MET AD 654"
   },
   {
     "objectID": "projects.html#lobster-land---operational-revenue-analysis",
     "href": "projects.html#lobster-land---operational-revenue-analysis",
     "title": "Projects",
     "section": "Lobster Land - Operational & Revenue Analysis",
-    "text": "Lobster Land - Operational & Revenue Analysis\nAnalyzed fictional amusement park operational data to identify revenue trends, labor efficiency, visitor behavior, weather patterns, and seasonal performance.\nTools & Technologies: Python, Pandas, Matplotlib, Seaborn, Tableau\nCourse: MET AD 654"
+    "text": "Lobster Land - Operational & Revenue Analysis\n\n\n  \n\n\nAnalyzed fictional amusement park operational data to identify revenue trends, labor efficiency, visitor behavior, weather patterns, and seasonal performance.\nTools & Technologies: Python, Pandas, Matplotlib, Seaborn, Tableau\nCourse: MET AD 654"
   },
   {
     "objectID": "projects.html#nyc-real-estate---neighborhood-analysis",
     "href": "projects.html#nyc-real-estate---neighborhood-analysis",
     "title": "Projects",
     "section": "NYC Real Estate - Neighborhood Analysis",
-    "text": "NYC Real Estate - Neighborhood Analysis\nAnalyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.\nTools & Technologies: R, SQL, dplyr, ggplot2, K-means Clustering, Statistical Analysis\nCourse: MET AD 571"
+    "text": "NYC Real Estate - Neighborhood Analysis\n\n\n  \n\n\nAnalyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.\nTools & Technologies: R, SQL, dplyr, ggplot2, K-means Clustering, Statistical Analysis\nCourse: MET AD 571"
   },
   {
     "objectID": "cv.html",
