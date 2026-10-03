@@ -1,0 +1,150 @@
+---
+title: "Projects"
+format:
+  html:
+    theme: yeti
+    toc: true
+---
+
+<style>
+.project {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 30px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.project-image {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.project-details {
+  flex: 1;
+}
+
+.project-details h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-image img {
+    max-width: 300px;
+  }
+}
+</style>
+
+<div class="project">
+
+<div class="project-image">
+
+<a href="./images/project1_688.jpg" target="_blank">
+<img src="./images/project1_688.jpg" alt="Big Data Job Market - Salary Analysis">
+</a>
+
+</div>
+
+<div class="project-details">
+
+## Big Data Job Market - Salary Analysis
+
+Processed and analyzed 500,000+ job postings to examine salary patterns across industries, occupations, education levels, experience, and employment types.
+
+**Tools & Technologies:** Python, PySpark, SQL, Plotly, Data Cleaning, Big Data Processing, Data Visualization
+
+**Course:** MED AD 688
+
+</div>
+
+</div>
+
+
+<div class="project">
+
+<div class="project-image">
+
+<a href="./images/project2_654.jpg" target="_blank">
+<img src="./images/project2_654.jpg" alt="Disney Parks - Customer Segmentation">
+</a>
+
+</div>
+
+<div class="project-details">
+
+## Disney Parks - Customer Segmentation
+
+Applied K-means clustering to 9,000+ households to identify customer segments based on spending, visitation, demographics, and Disney+ behavior.
+
+**Tools & Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, K-means Clustering
+
+**Course:** MET AD 654
+
+</div>
+
+</div>
+
+
+<div class="project">
+
+<div class="project-image">
+
+<a href="./images/project3_654.jpg" target="_blank">
+<img src="./images/project3_654.jpg" alt="Lobster Land - Operational & Revenue Analysis">
+</a>
+
+</div>
+
+<div class="project-details">
+
+## Lobster Land - Operational & Revenue Analysis
+
+Analyzed fictional amusement park operational data to identify revenue trends, labor efficiency, visitor behavior, weather patterns, and seasonal performance.
+
+**Tools & Technologies:** Python, Pandas, Matplotlib, Seaborn, Tableau
+
+**Course:** MET AD 654
+
+</div>
+
+</div>
+
+
+<div class="project">
+
+<div class="project-image">
+
+<a href="./images/project4_571.jpg" target="_blank">
+<img src="./images/project4_571.jpg" alt="NYC Real Estate - Neighborhood Analysis">
+</a>
+
+</div>
+
+<div class="project-details">
+
+## NYC Real Estate - Neighborhood Analysis
+
+Analyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.
+
+**Tools & Technologies:** R, SQL, dplyr, ggplot2, K-means Clustering, Statistical Analysis
+
+**Course:** MET AD 571
+
+</div>
+
+</div>
