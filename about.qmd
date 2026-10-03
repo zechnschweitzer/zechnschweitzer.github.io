@@ -8,13 +8,12 @@ format:
 
 ::: {.columns}
 
-::: {.column width="25%"}
+::: {.column width="25%" style="border-right: 1px solid #dee2e6; padding-right: 25px;"}
 
-![](./images/profile.jpeg){fig-align="center" width="70%"}
+![](./images/profile.jpeg){fig-align="center" width="75%"}
 
-:::
 
-::: {.column width="75%"}
+::: {.column width="75%" style="padding-left: 30px;"}
 
 Hello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.
 
@@ -25,3 +24,4 @@ I’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinat
 :::
 
 :::
+
