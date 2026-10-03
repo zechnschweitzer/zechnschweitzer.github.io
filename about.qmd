@@ -1,5 +1,9 @@
 ---
 title: "About Me"
+format:
+  html:
+    theme: yeti
+    toc: true
 ---
 
 ::: {.columns}
