@@ -4,19 +4,19 @@ title: "About Me"
 
 ::: {.columns}
 
-::: {.column width="65%"}
+::: {.column width="25%"}
+
+![](./images/profile.jpeg){fig-align="center" width="70%"}
+
+:::
+
+::: {.column width="75%"}
 
 Hello! I’m a Business Marketing Manager in the public media nonprofit sector. I’ve spent most of my professional career focused on financial operations and budget management. I currently work on a Direct Mail Marketing Strategy Team, where I build dashboards and use data to support strategic initiatives.
 
 I’m working toward a Master of Science (MS) in Applied Business Analytics at Boston University. I discovered data analytics in 2020 and was immediately drawn to the process of turning data into meaningful and actionable insights. As I continue developing my analytical skills, I’m interested in pursuing opportunities where I can combine strategy, marketing, and data analytics to help organizations make better decisions and create value.
 
 I’m a gigging guitarist and a hiking enthusiast. I’ve explored many destinations, including most of California’s National Parks, and enjoy bringing that same sense of curiosity and discovery to life outside of work.
-
-:::
-
-::: {.column width="35%"}
-
-![](./images/profile.jpg){fig-align="center" width="80%"}
 
 :::
 
