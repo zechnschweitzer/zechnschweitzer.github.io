@@ -5,49 +5,7 @@ format:
     toc: true
 ---
 
-<style>
-.project {
-  display: flex;
-  align-items: center;
-  gap: 35px;
-  padding: 30px 0;
-  border-bottom: 1px solid #dee2e6;
-}
-
-.project-image {
-  flex: 0 0 30%;
-  text-align: center;
-}
-
-.project-image img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-}
-
-.project-details {
-  flex: 1;
-}
-
-.project-details h2 {
-  margin-top: 0;
-}
-
-@media (max-width: 768px) {
-  .project {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .project-image {
-    width: 100%;
-  }
-
-  .project-image img {
-    max-width: 300px;
-  }
-}
-</style>
+## Big Data Job Market - Salary Analysis
 
 <div class="project">
 
@@ -61,8 +19,6 @@ format:
 
 <div class="project-details">
 
-## Big Data Job Market - Salary Analysis
-
 Processed and analyzed 500,000+ job postings to examine salary patterns across industries, occupations, education levels, experience, and employment types.
 
 **Tools & Technologies:** Python, PySpark, SQL, Plotly
@@ -73,6 +29,8 @@ Processed and analyzed 500,000+ job postings to examine salary patterns across i
 
 </div>
 
+
+## Disney Parks - Customer Segmentation
 
 <div class="project">
 
@@ -86,8 +44,6 @@ Processed and analyzed 500,000+ job postings to examine salary patterns across i
 
 <div class="project-details">
 
-## Disney Parks - Customer Segmentation
-
 Applied K-means clustering to 9,000+ households to identify customer segments based on spending, visitation, demographics, and Disney+ behavior.
 
 **Tools & Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, K-means Clustering
@@ -98,6 +54,8 @@ Applied K-means clustering to 9,000+ households to identify customer segments ba
 
 </div>
 
+
+## Lobster Land - Operational & Revenue Analysis
 
 <div class="project">
 
@@ -111,8 +69,6 @@ Applied K-means clustering to 9,000+ households to identify customer segments ba
 
 <div class="project-details">
 
-## Lobster Land - Operational & Revenue Analysis
-
 Analyzed fictional amusement park operational data to identify revenue trends, labor efficiency, visitor behavior, weather patterns, and seasonal performance.
 
 **Tools & Technologies:** Python, Pandas, Matplotlib, Seaborn, Tableau
@@ -123,6 +79,8 @@ Analyzed fictional amusement park operational data to identify revenue trends, l
 
 </div>
 
+
+## NYC Real Estate - Neighborhood Analysis
 
 <div class="project">
 
@@ -135,8 +93,6 @@ Analyzed fictional amusement park operational data to identify revenue trends, l
 </div>
 
 <div class="project-details">
-
-## NYC Real Estate - Neighborhood Analysis
 
 Analyzed NYC real estate transactions to compare neighborhoods, with a focus on Astoria, sales activity and property prices using statistical testing and clustering to identify differences within the market.
 
