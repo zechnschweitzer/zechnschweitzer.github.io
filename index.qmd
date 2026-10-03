@@ -16,12 +16,12 @@ format:
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 12px;
+  margin-top: 15px;
 }
 
 .social-links img {
-  width: 40px;
+  width: 24px;
   height: auto;
 }
 </style>
