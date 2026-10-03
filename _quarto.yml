@@ -7,8 +7,6 @@ website:
     left:
       - href: about.qmd
         text: About Me
-      - href: about.qmd
-        text: About
 
 
 format:
