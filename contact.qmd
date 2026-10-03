@@ -1,3 +1,10 @@
+---
+title: "Contact"
+format:
+  html:
+    toc: true
+---
+
 <div class="contact-container">
 
 ## Let's Connect
